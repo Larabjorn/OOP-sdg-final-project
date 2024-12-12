@@ -1,4 +1,3 @@
-
 import java.awt.*;
 import java.text.NumberFormat;
 import java.util.Locale;
