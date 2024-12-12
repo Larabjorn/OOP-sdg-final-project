@@ -13,8 +13,9 @@ public class Expenses {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> new Expenses().createGUI());
     }
+
     public void createGUI() {
-        frame = new JFrame("Weekly Allowance Tracker");
+        frame = new JFrame("SpendWise Chronicles");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(true);
 
@@ -60,6 +61,7 @@ public class Expenses {
         frame.pack();
         frame.setVisible(true);
     }
+
     private void addInputComponent(JPanel panel, String labelText, GridBagConstraints gbc, int gridY, JComboBox<String> comboBox, JTextField textField) {
         gbc.gridx = 0;
         gbc.gridy = gridY;
@@ -79,6 +81,7 @@ public class Expenses {
             panel.repaint();
         });
     }
+
     private double getInputValue(JComboBox<String> comboBox, JTextField textField) {
         String value = comboBox.getSelectedItem().toString();
         if ("Manual".equals(value)) {
@@ -87,6 +90,7 @@ public class Expenses {
             return Double.parseDouble(value);
         }
     }
+
     private JComboBox<String> createAmountComboBox() {
         String[] options = new String[51];
         options[0] = "Manual";
@@ -97,6 +101,7 @@ public class Expenses {
         comboBox.setEditable(true);
         return comboBox;
     }
+
     private JComboBox<String> createExpenseComboBox() {
         String[] options = new String[51];
         options[0] = "Manual"; 
@@ -107,6 +112,7 @@ public class Expenses {
         comboBox.setEditable(true); 
         return comboBox;
     }
+
     private void calculateExpenses() {
         try {
             double allowance = getInputValue(allowanceComboBox, allowanceTextField);
@@ -164,6 +170,7 @@ public class Expenses {
             resultArea.setText("Please enter valid numbers for all fields.");
         }
     }
+
     private void resetInputs() {
         allowanceComboBox.setSelectedIndex(0);
         incomeComboBox.setSelectedIndex(0);
