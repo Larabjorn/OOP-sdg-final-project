@@ -6,150 +6,68 @@
   <a href="https://github.com/Larabjorn">Lara Bjorn Phillipe L.</a>
 </p>
 
-<h2>About</h2>
-<ul dir="auto">
-  <li><a href="#-project-overview">Project Overview</a></li>
-  <li><a href="#-Principles and Features">OOP Principles and Features</a></li>
-  <li><a href="#-Chosen SDG">Chosen SDG</a></li>
-  <li><a href="#-run the program">How to run the program</a></li>
-  <li><a href="#-acknowledgment">Acknowledgments</a></li>
-</ul>
-<hr></hr>
+<h2>📖 Table of Contents</h2>
+  <ul>
+    <li><a href="#project-overview">Project Overview</a></li>
+    <li><a href="#oop-principles-and-features">OOP Principles and Features</a></li>
+    <li><a href="#chosen-sdg">Chosen SDG</a></li>
+    <li><a href="#how-to-run-the-program">How to Run the Program</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ul>
+  <hr>
 
-<div class="markdown-heading" dir="auto">
-  <h2 tabindex="-1" class="heading-element" dir="auto">Project Overview</h2>
-</div>
-<p dir="auto">
-<p><strong>SpendWise Chronicles</strong>, your interactive weekly allowance and expense tracker! This tool is designed to help you manage your finances, optimize your spending habits, and achieve your savings goals with ease. Whether you're budgeting for school, personal needs, or future savings, SpendWise is here to guide you every step of the way.</p>
+  <h2 id="project-overview">📖 Project Overview</h2>
+  <p><strong>SpendWise Chronicles</strong> is an interactive weekly allowance and expense tracker designed to help users manage finances, optimize spending habits, and achieve savings goals. It provides a simple yet powerful platform to track expenses, analyze budgets, and plan for future savings. Whether you’re budgeting for school, personal needs, or long-term investments, SpendWise empowers users to make smarter financial decisions.</p>
+  <hr>
 
-<hr>
-</p>
+  <h2 id="oop-principles-and-features">☕ OOP Principles and Features</h2>
+  <h3>💊 Encapsulation</h3>
+  <ul>
+    <li>Private variables store all financial data, such as allowance, expenses, and savings goals. Public getter and setter methods ensure controlled and secure access.</li>
+  </ul>
+  <h3>🧬 Inheritance</h3>
+  <ul>
+    <li>The parent class <code>FinancialTracker</code> provides shared methods and attributes, while subclasses like <code>AllowanceManager</code> and <code>ExpenseManager</code> extend its functionality.</li>
+  </ul>
+  <h3>📑 Polymorphism</h3>
+  <ul>
+    <li>Overloaded methods in <code>calculateSavings()</code> allow for different calculations based on user inputs, such as fixed goals or percentage-based goals.</li>
+  </ul>
+  <h3>🗄️ Abstraction</h3>
+  <ul>
+    <li>The program uses abstract classes and interfaces to define core functionalities like <code>BudgetCalculator</code>, simplifying code reuse and maintenance.</li>
+  </ul>
+  <hr>
 
-<div class="markdown-heading" dir="auto">
-  <h2 tabindex="-1" class="heading-element" dir="auto">OOP Principles and Features</h2>
-</div>
+  <h2 id="chosen-sdg">🌏 Chosen SDG</h2>
+  <h3>📖 SDG 12: Responsible Consumption and Production</h3>
+  <p>
+    Goal: Ensure sustainable consumption and production patterns.<br>
+    Target: Encourage users to adopt sustainable practices, especially in consumption and production activities.<br>
+    Connection: SpendWise motivates users to keep track of expenses and budgeting, potentially influencing more sustainable spending habits by recognizing and reducing wasteful or unnecessary expenses.
+  </p>
+  <hr>
 
-<h3>Income and Allowance Tracking</h3>
-<ul>
-    <li>Enter your weekly allowance and any additional income to calculate your total funds.</li>
-</ul>
-
-<h3>Expense Management</h3>
-<ul>
-    <li>Track your expenses in categories like:
-        <ul>
-            <li>Food</li>
-            <li>Transport</li>
-            <li>Entertainment</li>
-            <li>School</li>
-            <li>Miscellaneous</li>
-        </ul>
+  <h2 id="how-to-run-the-program">⚙️ How to Run the Program</h2>
+  <ol>
+    <li><b>Download the Code</b>
+      <ul>
+        <li>Clone or download this repository to your local machine.</li>
+      </ul>
     </li>
-</ul>
-
-<h3>Savings Goal</h3>
-<ul>
-    <li>Set a savings goal and monitor your progress toward achieving it.</li>
-</ul>
-
-<h3>Budget Analysis</h3>
-<ul>
-    <li>Get insights into your spending habits:
-        <ul>
-            <li>Identify overspending in specific categories.</li>
-            <li>Receive recommendations for better financial management.</li>
-        </ul>
+    <li><b>Compile the Program</b>
+      <pre><code>javac Expenses.java</code></pre>
     </li>
-</ul>
-
-<h3>Emergency Fund and Suggested Savings</h3>
-<ul>
-    <li>Automatically calculates:
-        <ul>
-            <li>Emergency fund (5% of allowance).</li>
-            <li>Suggested savings (20% of allowance).</li>
-        </ul>
+    <li><b>Run the Program</b>
+      <pre><code>java Expenses</code></pre>
     </li>
-</ul>
+  </ol>
+  <hr>
 
-<h3>Dynamic UI</h3>
-<ul>
-    <li>Dropdown options for predefined amounts.</li>
-    <li>Manual entry fields for custom values.</li>
-    <li>Interactive and responsive design for ease of use.</li>
-</ul>
-
-<hr>
-<div class="markdown-heading" dir="auto">
-  <h2 tabindex="-1" class="heading-element" dir="auto">Chosen SDG</h2>
-</div>
-<p dir="auto">
-    <h3>SDG 12: Responsible Consumption and Production</h3>
-  <br>
-  
-Goal: Ensure sustainable consumption and production patterns.
-Target: Encourage self to adopt sustainable practices, especially in consumption and production activities.
-Connection: Encourages users to keep track of expenses and budgeting, potentially influencing more sustainable spending habits. Users may recognize the need to reduce wasteful or unnecessary expenses, which supports responsible consumption patterns.
-<h2>How to run the program</h2>
-
-<h3>1. Input Your Data</h3>
-<ul>
-    <li>Select or manually enter values for:
-        <ul>
-            <li>Weekly allowance.</li>
-            <li>Additional income.</li>
-            <li>Expenses in each category.</li>
-            <li>Savings goal.</li>
-        </ul>
-    </li>
-</ul>
-
-<h3>2. Calculate</h3>
-<ul>
-    <li>Click the <strong>Calculate</strong> button to generate a detailed report of your budget, including:
-        <ul>
-            <li>Total income and expenses.</li>
-            <li>Remaining allowance or deficit.</li>
-            <li>Savings goal progress.</li>
-            <li>Personalized budget analysis.</li>
-        </ul>
-    </li>
-</ul>
-
-<h3>3. Reset</h3>
-<ul>
-    <li>Click the <strong>Reset</strong> button to clear all inputs and start fresh.</li>
-</ul>
-
-<hr>
-
-<h2>Requirements</h2>
-<ul>
-    <li><strong>Java Development Kit (JDK)</strong> version 8 or higher.</li>
-    <li>A Java-supported operating system (Windows, macOS, or Linux).</li>
-</ul>
-
-<hr>
-
-<h2>Installation and Setup</h2>
-
-<ol>
-    <li><strong>Download the Code</strong>
-        <ul>
-            <li>Clone or download this repository to your local machine.</li>
-        </ul>
-    </li>
-    <li><strong>Compile the Program</strong>
-        <pre><code>javac Expenses.java</code></pre>
-    </li>
-    <li><strong>Run the Program</strong>
-        <pre><code>java Expenses</code></pre>
-    </li>
-</ol>
-
-<hr>
-
-<h2>Example Output</h2>
-
-<pre>
+  <h2 id="acknowledgments">💮 Acknowledgments</h2>
+  <ul>
+    <li>Professor Jayson, for guidance throughout the project.</li>
+    <li>To helpful YouTube tutorials and online resources.</li>
+    <li>To my family and friends for their constant support.</li>
+  </ul>
    
