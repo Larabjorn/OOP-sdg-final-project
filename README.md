@@ -49,20 +49,30 @@
   <hr>
 
   <h2 id="how-to-run-the-program"> How to Run the Program</h2>
-  <ol>
-    <li><b>Download the Code</b>
-      <ul>
-        <li>Clone or download this repository to your local machine.</li>
-      </ul>
-    </li>
-    <li><b>Compile the Program</b>
-      <pre><code>javac Expenses.java</code></pre>
-    </li>
-    <li><b>Run the Program</b>
-      <pre><code>java Expenses</code></pre>
-    </li>
-  </ol>
-  <hr>
+<p>Follow these steps to run the SpendWise Chronicles program:</p>
+<ol>
+  <li><b>Download the Code</b>
+    <ul>
+      <li>Clone or download the repository from GitHub to your local machine using this command:
+        <pre><code>git clone https://github.com/your-username/spendwise-chronicles.git</code></pre>
+      </li>
+      <li>Alternatively, you can download the repository as a ZIP file from GitHub, extract it, and open the folder.</li>
+    </ul>
+  </li>
+  <li><b>Compile the Program</b>
+    <p>Once you have downloaded the code, navigate to the folder containing the `Expenses.java` file. Open a terminal or command prompt, then use the following command to compile the program:</p>
+    <pre><code>javac Expenses.java</code></pre>
+    <p>This will generate a compiled class file named <code>Expenses.class</code> in the same folder.</p>
+  </li>
+  <li><b>Run the Program</b>
+    <p>After compiling the program, use the following command to run it:</p>
+    <pre><code>java Expenses</code></pre>
+    <p>This will launch the graphical user interface (GUI) of the SpendWise Chronicles application, where you can start entering your financial data and track your expenses.</p>
+  </li>
+</ol>
+<p>If you encounter any issues, ensure that you have the Java Development Kit (JDK) installed on your system, and that your environment variables (such as <code>PATH</code>) are set up correctly for Java.</p>
+<hr>
+
 
   <h2 id="acknowledgments"> Acknowledgments</h2>
   <ul>
