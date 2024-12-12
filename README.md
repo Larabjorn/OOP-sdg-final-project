@@ -104,7 +104,7 @@
     <p>Click "Reset" to clear all inputs and start fresh.</p>
 
 </ol>
-<p>If you encounter any issues, ensure that you have the Java Development Kit (JDK) installed on your system, and that your environment variables (such as <code>PATH</code>) are set up correctly for Java.</p>
+<p>NOTE: If you encounter any issues, ensure that you have the Java Development Kit (JDK) installed on your system, and that your environment variables (such as <code>PATH</code>) are set up correctly for Java.</p>
 <hr>
 
 
