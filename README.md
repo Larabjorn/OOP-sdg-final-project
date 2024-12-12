@@ -2,6 +2,11 @@
   <img src="https://github.com/Larabjorn/OOP-sdg-final-project/blob/main/image/2.png" width="400">
 </p>
 <h1 align="center" tabindex="-1" class="heading element" dir="auto">SpendWise Chronicles</h1>
+<p align="center" dir="auto">
+  <em>
+    <code> Weekly Budget Edition</code>
+  </em>
+</p>
 
 <p align="center" dir="auto">
   <b>IT-2104</b>
