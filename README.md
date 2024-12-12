@@ -6,7 +6,11 @@
   <a href="https://github.com/Larabjorn">Lara Bjorn Phillipe L.</a>
 </p>
 
-<p>Welcome to <strong>SpendWise Chronicles</strong>, your interactive weekly allowance and expense tracker! This tool is designed to help you manage your finances, optimize your spending habits, and achieve your savings goals with ease. Whether you're budgeting for school, personal needs, or future savings, SpendWise is here to guide you every step of the way.</p>
+<div class="markdown-heading" dir="auto">
+  <h2 tabindex="-1" class="heading-element" dir="auto">Project Overview</h2>
+</div>
+<p dir="auto">
+<p><strong>SpendWise Chronicles</strong>, your interactive weekly allowance and expense tracker! This tool is designed to help you manage your finances, optimize your spending habits, and achieve your savings goals with ease. Whether you're budgeting for school, personal needs, or future savings, SpendWise is here to guide you every step of the way.</p>
 
 <hr>
 </p>
