@@ -38,8 +38,12 @@
     <li>The program uses abstract classes and interfaces to define core functionalities like <code>BudgetCalculator</code>, simplifying code reuse and maintenance.</li>
   </ul>
   <hr>
+  
+<p align="center" dir="auto">
+<img src="https://github.com/Larabjorn/OOP-sdg-final-project/blob/main/image/images.png">
+</p>
 
-  <h2 id="chosen-sdg">🌏 Chosen SDG</h2>
+  <h2 id="chosen-sdg"> Chosen SDG</h2>
   <h3> SDG 12: Responsible Consumption and Production</h3>
   <p>
     Goal: Ensure sustainable consumption and production patterns.<br>
