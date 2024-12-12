@@ -6,6 +6,16 @@
   <a href="https://github.com/Larabjorn">Lara Bjorn Phillipe L.</a>
 </p>
 
+<h2>About</h2>
+<ul dir="auto">
+  <li><a href="#-project-overview">Project Overview</a></li>
+  <li><a href="#-Principles and Features">OOP Principles and Features</a></li>
+  <li><a href="#-Chosen SDG">Chosen SDG</a></li>
+  <li><a href="#-run the program">How to run the program</a></li>
+  <li><a href="#-acknowledgment">Acknowledgments</a></li>
+</ul>
+<hr></hr>
+
 <div class="markdown-heading" dir="auto">
   <h2 tabindex="-1" class="heading-element" dir="auto">Project Overview</h2>
 </div>
@@ -15,7 +25,9 @@
 <hr>
 </p>
 
-<h2>Features</h2>
+<div class="markdown-heading" dir="auto">
+  <h2 tabindex="-1" class="heading-element" dir="auto">OOP Principles and Features</h2>
+</div>
 
 <h3>Income and Allowance Tracking</h3>
 <ul>
@@ -69,7 +81,7 @@
 
 <hr>
 
-<h2>How to Use</h2>
+<h2>How to run the program</h2>
 
 <h3>1. Input Your Data</h3>
 <ul>
