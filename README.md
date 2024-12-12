@@ -54,7 +54,7 @@
   <li><b>Download the Code</b>
     <ul>
       <li>Clone or download the repository from GitHub to your local machine using this command:
-        <pre><code>git clone https://github.com/Larabjorn/OOP-sdg-final-project/tree/main/OOP_FINAL_PROJECT.git</code></pre>
+        <pre><code>git clone https://github.com/Larabjorn/OOP-sdg-final-project/tree/main/OOP_FINAL_PROJECT</code></pre>
       </li>
       <li>Alternatively, you can download the repository as a ZIP file from GitHub, extract it, and open the folder.</li>
     </ul>
@@ -69,6 +69,28 @@
     <pre><code>java Expenses</code></pre>
     <p>This will launch the graphical user interface (GUI) of the SpendWise Chronicles application, where you can start entering your financial data and track your expenses.</p>
   </li>
+  <li>Input Your Allowance and Income</li>
+    <p>Select or manually enter your weekly allowance and any additional income. You can choose predefined amounts or enter custom values.</p>
+
+  <li>Enter Expenses</li>
+    <p>Enter your weekly expenses in categories like Food, Transport, Entertainment, School, and Miscellaneous. Again, you can choose from predefined values or enter a custom amount.</p>
+
+  <li>Set Your Savings Goal</li>
+    <p>Set a savings goal for the week by selecting or entering a custom amount.</p>
+
+  <li>Calculate and View Results</li>
+    <p>Click "Calculate" to view:</p>
+  <ul>
+    <li>Your total income and expenses.</li>
+    <li>The remaining allowance or deficit.</li>
+    <li>Your emergency fund (5% of allowance) and savings goal progress.</li>
+    <li>A budget analysis with recommendations.</li>
+    <li>Suggested savings (20% of allowance).</li>
+  </ul>
+
+  <li>Reset</h3>
+    <p>Click "Reset" to clear all inputs and start fresh.</p>
+
 </ol>
 <p>If you encounter any issues, ensure that you have the Java Development Kit (JDK) installed on your system, and that your environment variables (such as <code>PATH</code>) are set up correctly for Java.</p>
 <hr>
