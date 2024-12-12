@@ -118,3 +118,39 @@
 <h2>Example Output</h2>
 
 <pre>
+    <hr>
+
+<h2>Future Enhancements</h2>
+<ul>
+    <li>Add graphical reports for better visualization.</li>
+    <li>Enable saving and loading of budgets.</li>
+    <li>Introduce multilingual support.</li>
+</ul>
+
+<hr>
+
+<h2>Contributing</h2>
+<p>We welcome contributions to enhance this tool! If you have ideas or improvements, feel free to:</p>
+<ol>
+    <li>Fork the repository.</li>
+    <li>Create a feature branch.</li>
+    <li>Submit a pull request.</li>
+</ol>
+
+<hr>
+
+<h2>License</h2>
+<p>This project is licensed under the MIT License. Feel free to use, modify, and distribute as needed.</p>
+
+<hr>
+
+<h2>Contact</h2>
+<p>For questions or feedback, please contact:</p>
+<ul>
+    <li><strong>Author:</strong> [Your Name]</li>
+    <li><strong>Email:</strong> [Your Email]</li>
+</ul>
+
+<div class="footer">
+    <p>Thank you for using SpendWise Chronicles! Happy budgeting! 💸</p>
+</div>
