@@ -1,3 +1,4 @@
+
 import java.awt.*;
 import java.text.NumberFormat;
 import java.util.Locale;
@@ -104,12 +105,12 @@ public class Expenses {
 
     private JComboBox<String> createExpenseComboBox() {
         String[] options = new String[51];
-        options[0] = "Manual"; 
+        options[0] = "Manual";
         for (int i = 1; i <= 50; i++) {
             options[i] = String.valueOf(i * 100);
         }
         JComboBox<String> comboBox = new JComboBox<>(options);
-        comboBox.setEditable(true); 
+        comboBox.setEditable(true);
         return comboBox;
     }
 
