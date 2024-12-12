@@ -54,7 +54,7 @@
   <li><b>Download the Code</b>
     <ul>
       <li>Clone or download the repository from GitHub to your local machine using this command:
-        <pre><code>git clone https://github.com/Larabjorn/OOP-sdg-final-project/tree/main/OOP_FINAL_PROJECT</code></pre>
+        <pre><code>git clone https://github.com/Larabjorn/OOP-sdg-final-project/blob/main/OOP_FINAL_PROJECT/Expenses.java.git</code></pre>
       </li>
       <li>Alternatively, you can download the repository as a ZIP file from GitHub, extract it, and open the folder.</li>
     </ul>
