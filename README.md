@@ -80,7 +80,16 @@
 </ul>
 
 <hr>
-
+<div class="markdown-heading" dir="auto">
+  <h2 tabindex="-1" class="heading-element" dir="auto">Chosen SDG</h2>
+</div>
+<p dir="auto">
+    <h3>SDG 12: Responsible Consumption and Production</h3>
+  <br>
+  
+Goal: Ensure sustainable consumption and production patterns.
+Target: Encourage self to adopt sustainable practices, especially in consumption and production activities.
+Connection: Encourages users to keep track of expenses and budgeting, potentially influencing more sustainable spending habits. Users may recognize the need to reduce wasteful or unnecessary expenses, which supports responsible consumption patterns.
 <h2>How to run the program</h2>
 
 <h3>1. Input Your Data</h3>
