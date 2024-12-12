@@ -1,5 +1,5 @@
 <p align="center" dir="auto">
-  <img src="https://github.com/Larabjorn/OOP-sdg-final-project/blob/main/image/2.png" width="100">
+  <img src="https://github.com/Larabjorn/OOP-sdg-final-project/blob/main/image/2.png" width="400">
 </p>
 <h1 align="center" tabindex="-1" class="heading element" dir="auto">SpendWise Chronicles</h1>
 
